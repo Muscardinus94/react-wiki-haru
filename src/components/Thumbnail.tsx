@@ -11,7 +11,7 @@ type Props = {
 
 export const Thumbnail = ({ index }: Props) => {
   return (
-    <Link to={`/track/${index}`} className={styles.container}>
+    <Link to={`/react-wiki-haru/track/${index}`} className={styles.container}>
       <div>
         <div className={styles.badge}>
           <div>
