@@ -1,0 +1,8 @@
+.container {
+  padding: 0 6px;
+}
+
+.container div {
+  border: 1px solid var(--thumbnail-border);
+  height: 457px;
+}

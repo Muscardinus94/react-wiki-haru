@@ -1,0 +1,36 @@
+.container {
+  background-color: var(--primary-color);
+  padding: 33.92px 15.5px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > img {
+  margin-bottom: 29.92px;
+}
+
+.container p {
+  margin-top: 34px;
+  margin-bottom: 10px;
+  color: var(--follow-text-color);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 26.439px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.contact a {
+  width: 37px;
+  height: 37px;
+  background-color: var(--follow-bg);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

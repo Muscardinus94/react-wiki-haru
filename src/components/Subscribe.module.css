@@ -1,0 +1,46 @@
+.container {
+  padding: 0 6px;
+}
+
+.title {
+  padding-left: 27px;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.38px;
+  color: var(--recommendation-button-color);
+}
+
+.subscribe-container {
+  border-radius: 10px;
+  background-color: var(--about-title-bg);
+  padding: 17.15px 38px 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe-container > h3 {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.95px;
+  color: var(--headline-color);
+}
+
+.subscribe-container > span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 155.523%;
+  color: var(--headline-color);
+}
+
+.subscribe-container button {
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid var(--subscribe-button-border);
+  padding: 8px;
+  background-color: var(--white);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  color: var(--subscribe-button-color);
+}

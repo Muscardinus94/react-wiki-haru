@@ -1,0 +1,5 @@
+.container {
+  height: 125px;
+  border: 1px solid var(--ad-border);
+  background-color: var(--white);
+}

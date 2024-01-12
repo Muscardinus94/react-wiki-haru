@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 9.98px;
+}
+
+.square {
+  width: 11.542px;
+  height: 11.542px;
+  background-color: var(--primary-color);
+}
+
+.title {
+  color: var(--headline-color);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+}
+
+.description {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 155.523%;
+  word-break: break-all;
+  white-space: normal;
+}

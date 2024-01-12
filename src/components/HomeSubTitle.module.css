@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  height: 130.788px;
+}
+
+.container h4 {
+  min-width: 170px;
+  max-width: 55vw;
+}
+
+.container img {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+}

@@ -1,69 +1,54 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --primary-color: #9eb77d;
+  --white: #ffffff;
+  --divider-green: #83a161;
+  --divider-grey: #f5f5f5;
+  --follow-bg: #455046;
+  --follow-text-color: #fefefc;
+  --bread-crumb-color: #567750;
+  --headline-color: #424f45;
+  --author-title-color: #262626;
+  --button-bg: #f6f6f6;
+  --button-border: #eaeaea;
+  --button-color: #545454;
+  --ad-border: #e0e0e2;
+  --about-title-bg: #eaeee3;
+  --recommendation-button-color: #222;
+  --artist-title-color: #585858;
+  --artist-sub: #252525;
+  --search: #f3f3f3;
+  --thumbnail-border: #dfdfdf;
+  --badge-color: #758169;
+  --subscribe-button-border: #a3b690;
+  --subscribe-button-color: #9cb583;
+  --review-container-bg: #c6dab9;
+  --date-color: #6f8a59;
+  --review-description: #22271e;
+  --info-small-title: #333;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+ul {
+  display: block;
+  list-style-type: disc;
+  padding-inline-start: 30px;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 162.023%;
+  color: var(--headline-color);
+  margin-bottom: 20.49px;
 }

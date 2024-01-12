@@ -1,0 +1,56 @@
+.title {
+  background-color: var(--about-title-bg);
+  color: var(--author-title-color);
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.95px;
+  padding: 20.32px 19.94px;
+}
+
+.artist-container {
+  display: flex;
+  gap: 13px;
+}
+
+.avatar {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  border: 1px solid var(--ad-border);
+}
+
+.badge {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+}
+
+.artist-title {
+  color: var(--artist-title-color);
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+.artist-name {
+  font-size: 16px;
+  color: var(--bread-crumb-color);
+  font-weight: 700;
+  letter-spacing: -0.32px;
+}
+
+.artist-sub {
+  color: var(--artist-sub);
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 155.523%;
+}
+
+.description {
+  color: var(--headline-color);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 115%;
+  letter-spacing: -0.375px;
+}

@@ -1,0 +1,14 @@
+.container {
+  max-width: 800px;
+  min-height: 100dvh;
+  margin: 0 auto;
+  border: 1px solid blue;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.container > main {
+  flex: 1;
+  padding: 12px 0 26px;
+}

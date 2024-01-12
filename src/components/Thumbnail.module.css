@@ -1,0 +1,67 @@
+.container {
+  border: 1px solid var(--thumbnail-border);
+  border-radius: 10px;
+  background-color: var(--white);
+  padding: 0 14px 13px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container > img {
+  border: 1px solid var(--ad-border);
+  aspect-ratio: 158 / 105;
+}
+
+.container > div {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 6px;
+  left: -5px;
+  border-radius: 7px;
+  border: 2px solid var(--badge-color);
+  background-color: var(--white);
+  padding: 5px 3px;
+  color: var(--badge-color);
+  font-size: 8.5px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 3.33px;
+}
+
+.badge > span {
+  position: relative;
+  top: 1px;
+}
+
+.badge > div {
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+
+.badge > div > span {
+  position: absolute;
+  font-size: 6.5px;
+  font-weight: 500;
+  color: var(--white);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.badge img {
+  width: 10px;
+  height: 10px;
+}
+
+.container h4 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.32px;
+  margin-top: 8px;
+  color: var(--headline-color);
+}

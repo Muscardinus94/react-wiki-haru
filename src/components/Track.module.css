@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.track-number {
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.track-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 125.5%;
+  color: var(--headline-color);
+}
+
+.track-detail span {
+  color: var(--author-title-color);
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.95px;
+}

@@ -1,0 +1,12 @@
+.button {
+  width: 100%;
+  padding: 22px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 115%;
+  letter-spacing: -0.45px;
+  color: var(--recommendation-button-color);
+  background-color: var(--button-bg);
+  border-radius: 5px;
+  border: none;
+}
