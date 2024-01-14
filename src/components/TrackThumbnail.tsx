@@ -5,6 +5,8 @@ import { Container } from './Container.tsx';
 import { Spacing } from './Spacing.tsx';
 import { Thumbnail } from './Thumbnail.tsx';
 
+import { TRACK_INFORMATION } from '../constants.tsx';
+
 export const TrackThumbnail = () => {
   return (
     <div>
@@ -13,8 +15,8 @@ export const TrackThumbnail = () => {
       </Container>
       <Spacing height={16} />
       <div className={styles.container}>
-        {[1, 2, 3, 4].map((v) => (
-          <Thumbnail key={v} index={v} />
+        {TRACK_INFORMATION.map((track) => (
+          <Thumbnail key={track.trackNumber} {...track} />
         ))}
       </div>
     </div>

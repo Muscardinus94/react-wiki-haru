@@ -21,6 +21,7 @@
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -1.2px;
+  width: 80px;
 }
 
 .description {
@@ -29,5 +30,5 @@
   font-weight: 500;
   line-height: 155.523%;
   word-break: break-all;
-  white-space: normal;
+  white-space: pre-line;
 }

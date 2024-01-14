@@ -19,13 +19,13 @@
   line-height: 26.439px;
 }
 
-.contact {
+.follow {
   display: flex;
   justify-content: center;
   gap: 16px;
 }
 
-.contact a {
+.follow a {
   width: 37px;
   height: 37px;
   background-color: var(--follow-bg);

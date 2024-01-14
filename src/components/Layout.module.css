@@ -2,7 +2,6 @@
   max-width: 800px;
   min-height: 100dvh;
   margin: 0 auto;
-  border: 1px solid blue;
   background-color: var(--white);
   display: flex;
   flex-direction: column;

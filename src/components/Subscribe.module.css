@@ -33,7 +33,7 @@
   color: var(--headline-color);
 }
 
-.subscribe-container button {
+.subscribe-container a {
   width: 100%;
   border-radius: 7px;
   border: 1px solid var(--subscribe-button-border);
@@ -43,4 +43,6 @@
   font-weight: 600;
   letter-spacing: 0.75px;
   color: var(--subscribe-button-color);
+  text-align: center;
+  text-decoration: none;
 }

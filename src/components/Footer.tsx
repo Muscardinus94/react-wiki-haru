@@ -13,14 +13,14 @@ export const Footer = () => {
       <img src={FooterImage} alt="헤더 이미지" width={174} height={41} />
       <Divider backgroundColor="#83a161" />
       <p>팔로우 하기</p>
-      <div className={styles.contact}>
-        <a href="#">
+      <div className={styles.follow}>
+        <a href="https://www.instagram.com/haru.kid/" target="_blank">
           <img src={Instagram} alt="instargram" />
         </a>
-        <a href="#">
+        <a href="https://www.youtube.com/@harukid1704" target="_blank">
           <img src={YouTube} alt="youtube" />
         </a>
-        <a href="#">
+        <a href="mailto:contact@selrecords.com">
           <img src={Mail} alt="email" />
         </a>
       </div>

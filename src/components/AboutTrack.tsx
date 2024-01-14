@@ -1,10 +1,11 @@
 import styles from './AboutTrack.module.css';
 import { Spacing } from './Spacing.tsx';
 import { Container } from './Container.tsx';
+import { HighLight } from './HighLight.tsx';
 
 type Props = {
   description: string[];
-  tip: string;
+  tip?: string;
 };
 
 export const AboutTrack = ({ description, tip }: Props) => {
@@ -17,12 +18,11 @@ export const AboutTrack = ({ description, tip }: Props) => {
           <li key={index}>{v}</li>
         ))}
       </ul>
-      <Container>
-        <div className={styles.tip}>
-          <span>팁: </span>
-          {tip}
-        </div>
-      </Container>
+      {tip && (
+        <Container>
+          <HighLight title="팁">{tip}</HighLight>
+        </Container>
+      )}
     </div>
   );
 };

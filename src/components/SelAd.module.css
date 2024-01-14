@@ -1,5 +1,7 @@
 .container {
+  display: block;
   height: 125px;
+  padding: 10px 19px 14px 11px;
   border: 1px solid var(--ad-border);
   background-color: var(--white);
 }

@@ -2,27 +2,26 @@ import { Link } from 'react-router-dom';
 
 import styles from './Thumbnail.module.css';
 
-import ThumbnailImage from '../assets/thumbnail.png';
+import { Track } from '../constants.tsx';
+
 import ThumbnailBadge from '../assets/thumbnail_badge.png';
 
-type Props = {
-  index: number;
-};
+type Props = Track;
 
-export const Thumbnail = ({ index }: Props) => {
+export const Thumbnail = ({ path, trackNameKr, trackNameEn, trackNumber, imgPath }: Props) => {
   return (
-    <Link to={`/react-wiki-haru/track/${index}`} className={styles.container}>
+    <Link to={`/track/${path}`} className={styles.container}>
       <div>
         <div className={styles.badge}>
           <div>
-            <span>{index}</span>
+            <span>{trackNumber}</span>
             <img src={ThumbnailBadge} alt="thumbnail-badge" width={10} height={10} />
           </div>
-          <span>Bench Warmer</span>
+          <span>{trackNameEn}</span>
         </div>
-        <img src={ThumbnailImage} alt="thumbnail" width="100%" />
+        <img src={imgPath} alt="thumbnail" width="100%" />
       </div>
-      <h4>축구장 벤치에서 감독과 기싸움 하는 법</h4>
+      <h4>{trackNameKr}</h4>
     </Link>
   );
 };

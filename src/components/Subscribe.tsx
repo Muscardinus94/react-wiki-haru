@@ -15,7 +15,9 @@ export const Subscribe = () => {
         <Spacing height={13} />
         <span>어쩌다 가끔 구독탭에 뜨는 유익한 정보들!</span>
         <Spacing height={11} />
-        <button>구독할래요!</button>
+        <a href="https://www.youtube.com/@harukid1704?sub_confirmation=1" target="_blank">
+          구독할래요!
+        </a>
       </div>
     </div>
   );

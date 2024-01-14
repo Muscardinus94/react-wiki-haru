@@ -43,6 +43,7 @@ ul {
   display: block;
   list-style-type: disc;
   padding-inline-start: 30px;
+  padding-inline-end: 10px;
 }
 
 li {
@@ -51,4 +52,5 @@ li {
   line-height: 162.023%;
   color: var(--headline-color);
   margin-bottom: 20.49px;
+  white-space: pre-line;
 }

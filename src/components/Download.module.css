@@ -10,4 +10,6 @@
   font-size: 10px;
   font-weight: 500;
   color: var(--button-color);
+  width: max-content;
+  text-decoration: none;
 }
