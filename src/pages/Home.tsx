@@ -9,7 +9,7 @@ import { Subscribe } from '../components/Subscribe.tsx';
 import { Reviews } from '../components/Reviews.tsx';
 import { Information } from '../components/Information.tsx';
 
-export const Home = () => {
+const Home = () => {
   return (
     <div>
       <Spacing height={15} />
@@ -36,3 +36,5 @@ export const Home = () => {
     </div>
   );
 };
+
+export default Home;
