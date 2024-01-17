@@ -4,7 +4,7 @@ import styles from './Thumbnail.module.css';
 
 import { Track } from '../constants.tsx';
 
-import ThumbnailBadge from '../assets/thumbnail_badge.png';
+import ThumbnailBadge from '../assets/thumbnail-badge.png';
 
 type Props = Track;
 

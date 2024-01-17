@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import styles from './AboutWiki.module.css';
 import { Spacing } from './Spacing.tsx';
 import Badge from '../assets/badge.svg';
@@ -6,7 +7,7 @@ import { Container } from './Container.tsx';
 type Props = {
   artist: string;
   sub: string;
-  description: string;
+  description: ReactNode;
   category: string;
   artistImagePath: string;
 };
@@ -35,7 +36,9 @@ export const AboutWiki = ({ artist, sub, description, category, artistImagePath 
       </Container>
       <Spacing height={36} />
       <Container>
-        <p className={styles.description}>글 카테고리: {category}</p>
+        <p className={styles.description}>
+          글 카테고리: <span>{category}</span>
+        </p>
       </Container>
     </div>
   );

@@ -60,52 +60,6 @@ export const BenchWarmer = () => {
       <Spacing height={14.83} />
       <Container>
         <Lyric
-          title="Hook"
-          description="체력안배는 끝났고
-난 가볍게 뛰어 터치라인 뒤
-초조한 내 앞에 시간은 어느새
-심장소리는 100데시벨
-어서 공을 던져줘 내 앞에
-갈고닦은 내 트래핑 보여줄게
-공이 내 발에서
-떨어지지 않을 테니
-I just wanna be heated
-누군가의 뜨거운 입김 위에서
-하나도 그립지 않을 줄만 알았어
-I just wanna be filled with
-너의 문장들, 색깔은 붉게
-나는 아주 준비가 돼있어
-Let me run this track"
-        />
-        <Spacing height={23.45} />
-        <Divider height={2.223} />
-        <Spacing height={16.83} />
-        <Lyric
-          title="Verse"
-          description="몇 시에 잠들었는지 (몰라!)
-푹 잔 게 분명하지
-눈은 번쩍
-머리 속에 꽉 찬 허기
-단어 조합이 웃기지만
-이게 나의 미라클 모닝
-커튼 호쾌하게 swing
-창문은 30분쯤 열어둔 채
-뭐든 팬 위에 올려둔 뒤에
-기다려 좀 더 바삭해질 테니까
-해가 잔뜩 뜨거워지기 전에
-복잡한 머리를 꺼내놓고
-일광건조를 해야겠어
-아주 멀리까지 갈 필요도 없지
-나는 그저 절반쯤의 소화를 원해
-we go hard
-치열했던 어제밤을 위로해
-배불리 먹고 실컷 웃다
-떠들 시간이 필요해 너와 나에겐"
-        />
-        <Spacing height={23.45} />
-        <Divider height={2.223} />
-        <Spacing height={16.83} />
-        <Lyric
           title="Verse 1"
           description="체력안배는 끝났고
 난 가볍게 뛰어 터치라인 뒤
@@ -173,7 +127,29 @@ Give me the ball
 수 백 번을 이미지
 트레이닝 해왔다구
 절대 안져 0304년도 아스날
-경쟁자는 이적요청하기 바뻐  "
+경쟁자는 이적요청하기 바뻐"
+        />
+        <Spacing height={23.45} />
+        <Divider height={2.223} />
+        <Spacing height={16.83} />
+        <Lyric
+          title="Hook"
+          description="Hey, coach!
+I wanna know
+경기가 끝나겠어
+어서 날 좀 내보내줘
+Pass me the ball
+then Imma control
+소중한 기횔 다시 놓치지 않아
+가쁜 숨소릴 원해
+Hey, coach
+I wanna know
+경기가 끝나겠어
+어서 날 좀 내보내줘
+Pass me the ball
+Imma control
+소중한 기횔 다시 놓치지 않아
+가쁜 숨소릴 원해"
         />
         <Spacing height={22.3} />
         <HighLight title="피쳐링">Boi B (보이비)</HighLight>
@@ -211,7 +187,15 @@ Give me the ball
       <AboutWiki
         artistImagePath={Delbert}
         artist="Delbert E. McInnis"
-        description="이 글은 공동 작성자 Delbert E. Mclnnis 델버트 이 멕클니스는 전 세계적으로 유명한 심리 전문의입니다. 10년 동안 한 인도 사원에서 수도승 생활을 하며 명상과 철학에 대한 깊은 이해를 얻었습니다. 그리고 어느 날 갑자기 축구에 대한 열정을 불태우게 되었고, 축구장 벤치 심리 전문가로서의 진로를 결정하였고 The Warm Bench라는 벤치 심리 전문 컨설팅 회사를 설립하였습니다."
+        description={
+          <>
+            이 글은 공동 작성자 <span>Delbert E. Mclnnis</span> 델버트 이 멕클니스는 전 세계적으로
+            유명한 심리 전문의입니다. 10년 동안 한 인도 사원에서 수도승 생활을 하며 명상과 철학에
+            대한 깊은 이해를 얻었습니다. 그리고 어느 날 갑자기 축구에 대한 열정을 불태우게 되었고,
+            축구장 벤치 심리 전문가로서의 진로를 결정하였고 The Warm Bench라는 벤치 심리 전문 컨설팅
+            회사를 설립하였습니다.
+          </>
+        }
         sub="심리 전문의"
         category="심리요법"
       />

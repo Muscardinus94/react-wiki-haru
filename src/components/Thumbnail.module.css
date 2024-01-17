@@ -23,18 +23,13 @@
   border-radius: 7px;
   border: 1px solid var(--badge-color);
   background-color: var(--white);
-  padding: 5px 3px;
+  padding: 5px;
   color: var(--badge-color);
   font-size: 8.5px;
   font-weight: 500;
   display: flex;
   align-items: center;
   gap: 3.33px;
-}
-
-.badge > span {
-  position: relative;
-  top: 1px;
 }
 
 .badge > div {
@@ -50,7 +45,7 @@
   color: var(--white);
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -50%);
 }
 
 .badge img {
