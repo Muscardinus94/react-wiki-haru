@@ -2,14 +2,14 @@
   border: 1px solid var(--thumbnail-border);
   border-radius: 10px;
   background-color: var(--white);
-  padding: 0 14px 13px;
+  padding: 0 8px 13px 14px;
   cursor: pointer;
   text-decoration: none;
 }
 
-.container > img {
-  border: 1px solid var(--ad-border);
-  aspect-ratio: 158 / 105;
+.thumbnail-image {
+  max-width: 100%;
+  height: auto;
 }
 
 .container > div {
@@ -46,11 +46,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.badge img {
-  width: 10px;
-  height: 10px;
 }
 
 .container h4 {

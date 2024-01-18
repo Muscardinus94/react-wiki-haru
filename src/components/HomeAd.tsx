@@ -7,7 +7,7 @@ import Cap from '../assets/cap.png';
 export const HomeAd = () => {
   return (
     <div className={styles.container}>
-      <img src={HaruKidEventLg} alt="haru-kid-event-large" width="100%" />
+      <img src={HaruKidEventLg} alt="haru-kid-event-large" width={772} height={772} />
       <img src={HaruKidEventLg} alt="haru-kid-event-large" width="100%" />
       <img src={Jersey} alt="haru-kid-jersey" width="100%" />
       <img src={Cap} alt="haru-kid-cap" width="100%" />

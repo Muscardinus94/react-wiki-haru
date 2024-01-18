@@ -2,3 +2,8 @@
   display: block;
   background-color: var(--white);
 }
+
+.container > img {
+  max-width: 100%;
+  height: auto;
+}

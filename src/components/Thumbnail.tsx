@@ -19,7 +19,13 @@ export const Thumbnail = ({ path, trackNameKr, trackNameEn, trackNumber, imgPath
           </div>
           <span>{trackNameEn}</span>
         </div>
-        <img src={imgPath} alt="thumbnail" width="100%" />
+        <img
+          src={imgPath}
+          alt="thumbnail"
+          width={368}
+          height={244.555}
+          className={styles['thumbnail-image']}
+        />
       </div>
       <h4>{trackNameKr}</h4>
     </Link>

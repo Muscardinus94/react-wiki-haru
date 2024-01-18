@@ -7,6 +7,11 @@
   gap: 9.29px 9.5px;
 }
 
+.container > img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container > img:first-of-type {
   grid-column-start: 1;
   grid-column-end: 4;

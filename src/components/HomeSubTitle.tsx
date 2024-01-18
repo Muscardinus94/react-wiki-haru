@@ -8,7 +8,7 @@ export const HomeSubTitle = () => {
   return (
     <div className={styles.container}>
       <Typography.HomeSubTitle>오늘은 무엇을 들어볼까요?</Typography.HomeSubTitle>
-      <img src={Books} alt="books" height="100%" width={172.8} />
+      <img src={Books} alt="books" height={130.781} width={172.8} />
     </div>
   );
 };

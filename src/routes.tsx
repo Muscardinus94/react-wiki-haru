@@ -9,7 +9,7 @@ const TrackDetail = lazy(() => import('./pages/TrackDetail.tsx'));
 export const router = createBrowserRouter([
   {
     element: (
-      <Suspense fallback={<div>Loading</div>}>
+      <Suspense fallback={<div />}>
         <Layout />
       </Suspense>
     ),
