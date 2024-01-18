@@ -43,8 +43,8 @@ button {
 ul {
   display: block;
   list-style-type: disc;
-  padding-inline-start: 30px;
-  padding-inline-end: 10px;
+  padding-inline-start: 50px;
+  padding-inline-end: 30px;
 }
 
 li {
@@ -54,4 +54,7 @@ li {
   color: var(--headline-color);
   margin-bottom: 20.49px;
   white-space: pre-line;
+}
+
+li:nth-of-type(2) {
 }

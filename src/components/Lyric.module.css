@@ -32,4 +32,5 @@
   line-height: 155.523%;
   word-break: break-all;
   white-space: pre-line;
+  color: var(--headline-color);
 }

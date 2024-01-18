@@ -129,28 +129,6 @@ Give me the ball
 절대 안져 0304년도 아스날
 경쟁자는 이적요청하기 바뻐"
         />
-        <Spacing height={23.45} />
-        <Divider height={2.223} />
-        <Spacing height={16.83} />
-        <Lyric
-          title="Hook"
-          description="Hey, coach!
-I wanna know
-경기가 끝나겠어
-어서 날 좀 내보내줘
-Pass me the ball
-then Imma control
-소중한 기횔 다시 놓치지 않아
-가쁜 숨소릴 원해
-Hey, coach
-I wanna know
-경기가 끝나겠어
-어서 날 좀 내보내줘
-Pass me the ball
-Imma control
-소중한 기횔 다시 놓치지 않아
-가쁜 숨소릴 원해"
-        />
         <Spacing height={22.3} />
         <HighLight title="피쳐링">Boi B (보이비)</HighLight>
         <Spacing height={23.45} />

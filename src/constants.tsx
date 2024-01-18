@@ -31,7 +31,7 @@ export const TRACK_INFORMATION: Track[] = [
   {
     path: 'brunch-life',
     trackNumber: 2,
-    trackNameKr: '축구장 벤치에서 감독과 기싸움 하는 법',
+    trackNameKr: '오후 6시에 브런치 만드는 법',
     trackNameEn: 'Brunch Life',
     imgPath: Brunch,
   },
