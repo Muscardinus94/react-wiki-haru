@@ -1,16 +1,20 @@
-import { Link } from 'react-router-dom';
-
 import styles from './Thumbnail.module.css';
 
-import { Track } from '../constants.tsx';
+import { Video } from '../constants.tsx';
 
 import ThumbnailBadge from '../assets/thumbnail-badge.png';
 
-type Props = Track;
+type Props = Video;
 
-export const Thumbnail = ({ path, trackNameKr, trackNameEn, trackNumber, imgPath }: Props) => {
+export const OuterPathThumbnail = ({
+  url,
+  trackNameKr,
+  trackNameEn,
+  trackNumber,
+  imgPath,
+}: Props) => {
   return (
-    <Link to={`/track/${path}`} className={styles.container}>
+    <a href={url} target="_blank" className={styles.container}>
       <div>
         <div className={styles.badge}>
           <div>
@@ -28,6 +32,6 @@ export const Thumbnail = ({ path, trackNameKr, trackNameEn, trackNumber, imgPath
         />
       </div>
       <h4>{trackNameKr}</h4>
-    </Link>
+    </a>
   );
 };

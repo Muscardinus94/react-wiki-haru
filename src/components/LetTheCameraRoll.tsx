@@ -31,7 +31,7 @@ export const LetTheCameraRoll = () => {
       </Container>
       <Spacing height={19} />
       <Container>
-        <Download />
+        <Download url="https://youtu.be/UPH8gxm3WbA" />
       </Container>
       <Spacing height={17} />
       <Container>

@@ -8,6 +8,8 @@ import { HomeAd } from '../components/HomeAd.tsx';
 import { Subscribe } from '../components/Subscribe.tsx';
 import { Reviews } from '../components/Reviews.tsx';
 import { Information } from '../components/Information.tsx';
+import { RecommendMusicVideo } from '../components/RecommendMusicVideo.tsx';
+import { RecommendTrack } from '../components/RecommendTrack.tsx';
 
 const Home = () => {
   return (
@@ -29,6 +31,10 @@ const Home = () => {
       <HomeAd />
       <Spacing height={30} />
       <Subscribe />
+      <Spacing height={29.96} />
+      <RecommendMusicVideo />
+      <Spacing height={30} />
+      <RecommendTrack />
       <Spacing height={30} />
       <Reviews />
       <Spacing height={32} />

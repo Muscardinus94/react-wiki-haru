@@ -31,7 +31,7 @@ export const BenchWarmer = () => {
       </Container>
       <Spacing height={19} />
       <Container>
-        <Download />
+        <Download url="https://www.youtube.com/watch?v=m6t7iswKQbo&feature=youtu.be" />
       </Container>
       <Spacing height={17} />
       <Container>
