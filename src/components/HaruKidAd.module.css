@@ -1,15 +1,8 @@
 .container {
-  padding: 5.48px 8.04px;
-  border: 1px solid var(--ad-border);
-  background-color: var(--white);
-  display: flex;
-  gap: 9.29px;
-}
-
-.container a {
-  flex: 1;
+  display: block;
 }
 
 .container img {
-  aspect-ratio: 1 / 1;
+  max-width: 100%;
+  height: auto;
 }

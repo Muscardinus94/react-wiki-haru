@@ -2,7 +2,6 @@ import { Spacing } from './Spacing.tsx';
 import { Container } from './Container.tsx';
 import Typography from './Typography.tsx';
 import { Download } from './Download.tsx';
-import { HaruKidAd } from './HaruKidAd.tsx';
 import { TrackImage } from './TrackImage.tsx';
 import BrunchLifeCover from '../assets/brunch-life-cover.png';
 import { Divider } from './Divider.tsx';
@@ -12,6 +11,7 @@ import { AboutWiki } from './AboutWiki.tsx';
 import Jose from '../assets/jose.png';
 import { Recommendation } from './Recommendation.tsx';
 import { Track } from './Track.tsx';
+import { VideoPlayer } from './VideoPlayer.tsx';
 
 export const BrunchLife = () => {
   return (
@@ -44,7 +44,13 @@ export const BrunchLife = () => {
       </Container>
       <Spacing height={19} />
       <Container>
-        <HaruKidAd />
+        <VideoPlayer
+          title="Brunch Life의 훌륭한 비주얼라이저!"
+          description="하루키드의 Brunch Life가 궁금하다면 유튜브에서 감상하세요.
+소소하고 잔잔한 감성을 느끼며, 일상의 여유를 찾으세요!"
+          src="https://www.youtube.com/watch?v=IKXpbjEP-ew"
+          embedSrc="https://www.youtube.com/embed/IKXpbjEP-ew?si=aJF5ZlXYaS6_Q8lV"
+        />
       </Container>
       <Spacing height={29} />
       <Container>

@@ -25,6 +25,8 @@
   --date-color: #6f8a59;
   --review-description: #22271e;
   --info-small-title: #333;
+  --video-border: #d9d9d9;
+  --video-text: #7c7c7e;
 }
 
 * {

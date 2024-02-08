@@ -2,7 +2,6 @@ import { Spacing } from './Spacing.tsx';
 import { Container } from './Container.tsx';
 import Typography from './Typography.tsx';
 import { Download } from './Download.tsx';
-import { SelAd } from './SelAd.tsx';
 import { TrackImage } from './TrackImage.tsx';
 import BenchWarmerCover from '../assets/bench-warmer-cover.png';
 import { Divider } from './Divider.tsx';
@@ -13,6 +12,7 @@ import { AboutWiki } from './AboutWiki.tsx';
 import Delbert from '../assets/delbert.png';
 import { Recommendation } from './Recommendation.tsx';
 import { Track } from './Track.tsx';
+import { VideoPlayer } from './VideoPlayer.tsx';
 
 export const BenchWarmer = () => {
   return (
@@ -45,7 +45,13 @@ export const BenchWarmer = () => {
       </Container>
       <Spacing height={19} />
       <Container>
-        <SelAd />
+        <VideoPlayer
+          title="Bench Warmer 비주얼라이저를 즐겨보세요!"
+          description="이 곡은 환상적인 비주얼라이저와 함께 감상할 수 있습니다. 신나고 환상적인 비주얼라이저와
+          함께 Bench Warmer를 즐겨보세요!"
+          src="https://youtu.be/YSW9VSkEZ9E"
+          embedSrc="https://www.youtube.com/embed/YSW9VSkEZ9E?si=zIEVoHi_kj5MHOiV"
+        />
       </Container>
       <Spacing height={29} />
       <Container>

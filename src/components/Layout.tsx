@@ -23,18 +23,18 @@ export const Layout = () => {
     return dayjs().isAfter(LIMIT_DATE);
   }, []);
 
-  // useEffect(() => {
-  //   if (!IS_AFTER_LIMIT_DATE) {
-  //     navigate('/', { replace: true });
-  //   }
-  // }, [IS_AFTER_LIMIT_DATE, navigate]);
+  useEffect(() => {
+    if (!IS_AFTER_LIMIT_DATE) {
+      navigate('/', { replace: true });
+    }
+  }, [IS_AFTER_LIMIT_DATE, navigate]);
 
   return (
     <div className={styles.container}>
       <Header />
-      {/*<main>{IS_AFTER_LIMIT_DATE ? <Outlet /> : <Intro />}</main>*/}
-      <main>{!IS_AFTER_LIMIT_DATE ? <Outlet /> : <Intro />}</main>
-      <Footer />
+      <main>{IS_AFTER_LIMIT_DATE ? <Outlet /> : <Intro />}</main>
+      {/*<main>{!IS_AFTER_LIMIT_DATE ? <Outlet /> : <Intro />}</main>*/}
+      {/*<Footer />*/}
     </div>
   );
 };

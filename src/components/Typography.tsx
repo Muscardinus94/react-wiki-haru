@@ -51,6 +51,10 @@ const ThumbnailTitle = ({ children }: PropsWithChildren) => {
   return <h3 className={styles['thumbnail-title']}>{children}</h3>;
 };
 
+const VideoText = ({ children }: PropsWithChildren) => {
+  return <p className={styles['video-text']}>{children}</p>;
+};
+
 export default Object.assign({}, Typography, {
   BreadCrumb,
   HeadLine,
@@ -59,4 +63,5 @@ export default Object.assign({}, Typography, {
   HomeTitle,
   HomeSubTitle,
   ThumbnailTitle,
+  VideoText,
 });

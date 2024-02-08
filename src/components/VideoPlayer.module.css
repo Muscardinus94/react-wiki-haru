@@ -1,0 +1,46 @@
+.container {
+  padding: 13px 0px 17px 0px;
+  border: 1px solid var(--video-border);
+}
+
+.padding-container {
+  padding-left: 7px;
+}
+
+.divider {
+  background-color: #a8bff5;
+  height: 3px;
+  margin-right: 25px;
+}
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+}
+
+.iframe-container iframe {
+  aspect-ratio: 256 / 274;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 19px;
+  padding-left: 7px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 6px;
+  width: 122px;
+  background-color: #5483ed;
+  text-decoration: none;
+  color: var(--white);
+  line-height: 125.5%;
+  font-weight: 500;
+  border-radius: 5px;
+}
