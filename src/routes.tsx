@@ -1,9 +1,8 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 
 import { Layout } from './components/Layout.tsx';
 
-const Intro = lazy(() => import('./pages/Intro.tsx'));
 const Home = lazy(() => import('./pages/Home.tsx'));
 const TrackDetail = lazy(() => import('./pages/TrackDetail.tsx'));
 
@@ -17,16 +16,13 @@ export const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Intro />,
-      },
-      {
-        path: '/',
         element: <Home />,
       },
       {
         path: '/track/:id',
         element: <TrackDetail />,
       },
+      { path: '*', element: <Navigate to="/" replace /> },
     ],
   },
 ]);
