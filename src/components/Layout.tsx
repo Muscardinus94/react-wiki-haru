@@ -34,7 +34,7 @@ export const Layout = () => {
       <Header />
       <main>{IS_AFTER_LIMIT_DATE ? <Outlet /> : <Intro />}</main>
       {/*<main>{!IS_AFTER_LIMIT_DATE ? <Outlet /> : <Intro />}</main>*/}
-      {/*<Footer />*/}
+      <Footer />
     </div>
   );
 };
