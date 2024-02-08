@@ -1,23 +1,9 @@
 .container {
-  padding: 15.61px 13px 15.4px;
-  border-radius: 10px;
-  border: 1px solid var(--thumbnail-border);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 9.29px 9.5px;
+  display: block;
+  padding: 0 6px;
 }
 
-.container > img {
+.container img {
   max-width: 100%;
   height: auto;
-}
-
-.container > img:first-of-type {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  aspect-ratio: 1 / 1;
-}
-
-.container > img:not(:first-of-type) {
-  aspect-ratio: 1 / 1;
 }

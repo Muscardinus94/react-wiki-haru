@@ -1,16 +1,15 @@
 import styles from './HomeAd.module.css';
 
-import HaruKidEventLg from '../assets/haru-kid-event-lg.png';
-import Jersey from '../assets/jersey.png';
-import Cap from '../assets/cap.png';
+import HomeAdImage from '../assets/home-ad.png';
 
 export const HomeAd = () => {
   return (
-    <div className={styles.container}>
-      <img src={HaruKidEventLg} alt="haru-kid-event-large" width={772} height={772} />
-      <img src={HaruKidEventLg} alt="haru-kid-event-large" width="100%" />
-      <img src={Jersey} alt="haru-kid-jersey" width="100%" />
-      <img src={Cap} alt="haru-kid-cap" width="100%" />
-    </div>
+    <a
+      className={styles.container}
+      href="https://docs.google.com/forms/d/e/1FAIpQLSducoSLcYOLKYaCqlTeVgY6ZRQg8DVnF_SfrJGfPQU6Oit2Yw/viewform"
+      target="_blank"
+    >
+      <img src={HomeAdImage} alt="굿즈 증정 이벤트" width={800} height={457} />
+    </a>
   );
 };
