@@ -42,7 +42,7 @@ const Audio = ({ src, title }: Props) => {
 
   useEffect(() => {
     if (open) {
-      load(src, { html5: true });
+      load(src, { html5: true, autoplay: true });
     }
   }, [open, load, src]);
 
