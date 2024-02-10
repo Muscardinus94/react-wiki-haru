@@ -6,6 +6,8 @@ import { Container } from '../components/Container.tsx';
 import { RecommendMusicVideo } from '../components/RecommendMusicVideo.tsx';
 import { RecommendTrack } from '../components/RecommendTrack.tsx';
 import { Subscribe } from '../components/Subscribe.tsx';
+import { AudioPlayer } from '../components/AudioPlayer.tsx';
+import IntroAudio from '../assets/audio/intro.wav';
 
 const Intro = () => {
   return (
@@ -23,6 +25,7 @@ const Intro = () => {
         <Spacing height={30} />
         <Subscribe />
       </Container>
+      <AudioPlayer src={IntroAudio} title="하루키드 (Haru Kid) - LIFE 트랙들 미리듣기" />
     </div>
   );
 };

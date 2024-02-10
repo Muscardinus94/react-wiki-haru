@@ -27,6 +27,9 @@
   --info-small-title: #333;
   --video-border: #d9d9d9;
   --video-text: #7c7c7e;
+  --audio-bg: #fdf8db;
+  --audio-color: #9eb77d;
+  --audio-scroller: #424f45;
 }
 
 * {

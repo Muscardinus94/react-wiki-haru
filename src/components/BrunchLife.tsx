@@ -12,6 +12,8 @@ import Jose from '../assets/jose.png';
 import { Recommendation } from './Recommendation.tsx';
 import { Track } from './Track.tsx';
 import { VideoPlayer } from './VideoPlayer.tsx';
+import { AudioPlayer } from './AudioPlayer.tsx';
+import BrunchLifeAudio from '../assets/audio/brunch-life.wav';
 
 export const BrunchLife = () => {
   return (
@@ -170,6 +172,7 @@ Today is gonna be the day we love"
       <Container>
         <Recommendation />
       </Container>
+      <AudioPlayer src={BrunchLifeAudio} title="2. 하루키드 (Haru Kid) - Brunch Life" />
     </>
   );
 };

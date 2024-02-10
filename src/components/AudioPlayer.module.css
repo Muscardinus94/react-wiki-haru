@@ -1,0 +1,111 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--audio-bg);
+  animation: slide-up 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+.slide-down {
+  animation: slide-down 1s linear;
+  animation-fill-mode: forwards;
+}
+
+.top-border {
+  background-color: var(--audio-color);
+  height: 6px;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 11px;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.title-container {
+  padding-left: 16px;
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+}
+
+.title {
+  margin-right: 15px;
+  animation-play-state: paused;
+}
+
+.animate-title {
+  animation: animate_text 3s linear infinite;
+  animation-play-state: running;
+}
+
+.progress-bar {
+  position: relative;
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 5px;
+  background-color: var(--white);
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--audio-color);
+}
+
+.scroller {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(100%, -50%);
+  background-color: var(--audio-scroller);
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+}
+
+.status {
+  text-align: center;
+}
+
+.status img {
+  cursor: pointer;
+}
+
+@keyframes slide-up {
+  from {
+    bottom: -50%;
+  }
+
+  to {
+    bottom: 0;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: -50%;
+  }
+}
+
+@keyframes animate_text {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}

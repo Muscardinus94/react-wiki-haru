@@ -13,6 +13,8 @@ import Delbert from '../assets/delbert.png';
 import { Recommendation } from './Recommendation.tsx';
 import { Track } from './Track.tsx';
 import { VideoPlayer } from './VideoPlayer.tsx';
+import { AudioPlayer } from './AudioPlayer.tsx';
+import BenchWarmerAudio from '../assets/audio/bench-warmer.wav';
 
 export const BenchWarmer = () => {
   return (
@@ -187,6 +189,10 @@ Give me the ball
       <Container>
         <Recommendation />
       </Container>
+      <AudioPlayer
+        src={BenchWarmerAudio}
+        title="1. 하루키드 (Haru Kid) - Bench Warmer (feat.Boi B)"
+      />
     </>
   );
 };

@@ -15,13 +15,13 @@ export const Footer = () => {
       <p>팔로우 하기</p>
       <div className={styles.follow}>
         <a href="https://www.instagram.com/haru.kid/" target="_blank">
-          <img src={Instagram} alt="instargram" />
+          <img src={Instagram} alt="instargram" width={20} height={20} />
         </a>
         <a href="https://www.youtube.com/@harukid1704" target="_blank">
-          <img src={YouTube} alt="youtube" />
+          <img src={YouTube} alt="youtube" width={20} height={20} />
         </a>
         <a href="mailto:contact@selrecords.com">
-          <img src={Mail} alt="email" />
+          <img src={Mail} alt="email" width={20} height={20} />
         </a>
       </div>
     </footer>

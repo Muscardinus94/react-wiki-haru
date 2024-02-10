@@ -1,14 +1,16 @@
-import { Fragment, PropsWithChildren } from 'react';
+import { ComponentProps, Fragment, PropsWithChildren } from 'react';
 
 import styles from './Typography.module.css';
 
-const Typography = ({ children }: PropsWithChildren) => {
-  return <p>{children}</p>;
+type TypographyProps = PropsWithChildren<ComponentProps<'p'>>;
+
+const Typography = ({ children, ...props }: TypographyProps) => {
+  return <p {...props}>{children}</p>;
 };
 
 type BreadCrumbProps = {
   list: string[];
-};
+} & TypographyProps;
 
 const BreadCrumb = ({ list }: BreadCrumbProps) => {
   return (
@@ -23,36 +25,60 @@ const BreadCrumb = ({ list }: BreadCrumbProps) => {
   );
 };
 
-const HeadLine = ({ children }: PropsWithChildren) => {
-  return <h1 className={styles.headline}>{children}</h1>;
+const HeadLine = ({ children, ...props }: TypographyProps) => {
+  return (
+    <h1 className={styles.headline} {...props}>
+      {children}
+    </h1>
+  );
 };
 
-const Author = ({ children }: PropsWithChildren) => {
+const Author = ({ children, ...props }: TypographyProps) => {
   return (
-    <h5 className={styles.author}>
+    <h5 className={styles.author} {...props}>
       공동 작성자 <span>{children}</span>
     </h5>
   );
 };
 
-const Summary = ({ children }: PropsWithChildren) => {
-  return <p className={styles.summary}>{children}</p>;
+const Summary = ({ children, ...props }: TypographyProps) => {
+  return (
+    <p className={styles.summary} {...props}>
+      {children}
+    </p>
+  );
 };
 
-const HomeTitle = ({ children }: PropsWithChildren) => {
-  return <h1 className={styles['home-title']}>{children}</h1>;
+const HomeTitle = ({ children, ...props }: TypographyProps) => {
+  return (
+    <h1 className={styles['home-title']} {...props}>
+      {children}
+    </h1>
+  );
 };
 
-const HomeSubTitle = ({ children }: PropsWithChildren) => {
-  return <h4 className={styles['home-sub-title']}>{children}</h4>;
+const HomeSubTitle = ({ children, ...props }: TypographyProps) => {
+  return (
+    <h4 className={styles['home-sub-title']} {...props}>
+      {children}
+    </h4>
+  );
 };
 
-const ThumbnailTitle = ({ children }: PropsWithChildren) => {
-  return <h3 className={styles['thumbnail-title']}>{children}</h3>;
+const ThumbnailTitle = ({ children, ...props }: TypographyProps) => {
+  return (
+    <h3 className={styles['thumbnail-title']} {...props}>
+      {children}
+    </h3>
+  );
 };
 
-const VideoText = ({ children }: PropsWithChildren) => {
-  return <p className={styles['video-text']}>{children}</p>;
+const VideoText = ({ children, ...props }: TypographyProps) => {
+  return (
+    <p className={styles['video-text']} {...props}>
+      {children}
+    </p>
+  );
 };
 
 export default Object.assign({}, Typography, {

@@ -13,6 +13,8 @@ import { AboutWiki } from './AboutWiki.tsx';
 import Dongho from '../assets/dongho.png';
 import { Recommendation } from './Recommendation.tsx';
 import { Track } from './Track.tsx';
+import { AudioPlayer } from './AudioPlayer.tsx';
+import LetTheCameraRollAudio from '../assets/audio/let-the-camera-roll.wav';
 
 export const LetTheCameraRoll = () => {
   return (
@@ -199,6 +201,10 @@ Action!"
       <Container>
         <Recommendation />
       </Container>
+      <AudioPlayer
+        src={LetTheCameraRollAudio}
+        title="4. 하루키드 (Haru Kid) - Let The Camera Roll (feat. 이바다)"
+      />
     </>
   );
 };

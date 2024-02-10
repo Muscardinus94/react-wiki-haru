@@ -12,6 +12,8 @@ import { AboutWiki } from './AboutWiki.tsx';
 import Liam from '../assets/liam.png';
 import { Recommendation } from './Recommendation.tsx';
 import { Track } from './Track.tsx';
+import ThirtyNineDegreesAudio from '../assets/audio/39-degrees.wav';
+import { AudioPlayer } from './AudioPlayer.tsx';
 
 export const ThirtyNineDegrees = () => {
   return (
@@ -186,6 +188,7 @@ i just wanna,
       <Container>
         <Recommendation />
       </Container>
+      <AudioPlayer src={ThirtyNineDegreesAudio} title="3. 하루키드 (Haru Kid) - 39 degees" />
     </>
   );
 };
