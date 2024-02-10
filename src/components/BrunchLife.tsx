@@ -48,8 +48,8 @@ export const BrunchLife = () => {
           title="Brunch Life의 훌륭한 비주얼라이저!"
           description="하루키드의 Brunch Life가 궁금하다면 유튜브에서 감상하세요.
 소소하고 잔잔한 감성을 느끼며, 일상의 여유를 찾으세요!"
-          src="https://www.youtube.com/watch?v=IKXpbjEP-ew"
-          embedSrc="https://www.youtube.com/embed/IKXpbjEP-ew?si=aJF5ZlXYaS6_Q8lV"
+          src="https://www.youtube.com/watch?v=CL8dL-hKa38"
+          embedSrc="https://www.youtube.com/embed/CL8dL-hKa38?si=x9BDg1UXPDqyEfHc"
         />
       </Container>
       <Spacing height={29} />
