@@ -42,7 +42,9 @@ const Audio = ({ src, title }: Props) => {
 
   useEffect(() => {
     if (open) {
-      load(src, { html5: true, autoplay: true });
+      load(src, {
+        html5: true,
+      });
     }
   }, [open, load, src]);
 
@@ -66,6 +68,9 @@ const Audio = ({ src, title }: Props) => {
       <div className={styles['title-container']}>
         <Typography.Summary className={clsx([styles['title'], playing && styles['animate-title']])}>
           {title}
+        </Typography.Summary>
+        <Typography.Summary className={clsx([styles['title'], playing && styles['animate-title']])}>
+          {playing && title}
         </Typography.Summary>
       </div>
       <Spacing height={11} />

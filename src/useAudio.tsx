@@ -35,5 +35,15 @@ export const useAudio = () => {
     };
   }, [cleanup]);
 
-  return { pos, load, togglePlayPause, playing, duration, progressPercent, seek, stop, cleanup };
+  return {
+    pos,
+    load,
+    togglePlayPause,
+    playing,
+    duration,
+    progressPercent,
+    seek,
+    stop,
+    cleanup,
+  };
 };

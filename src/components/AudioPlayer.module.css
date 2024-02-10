@@ -41,7 +41,7 @@
 }
 
 .animate-title {
-  animation: animate_text 3s linear infinite;
+  animation: animate_text 9s linear infinite;
   animation-play-state: running;
 }
 
