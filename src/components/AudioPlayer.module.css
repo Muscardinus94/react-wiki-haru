@@ -36,12 +36,12 @@
 }
 
 .title {
-  margin-right: 15px;
+  margin-right: 30px;
   animation-play-state: paused;
 }
 
 .animate-title {
-  animation: animate_text 9s linear infinite;
+  animation: animate_text 9s linear alternate infinite;
   animation-play-state: running;
 }
 
@@ -102,10 +102,15 @@
 }
 
 @keyframes animate_text {
-  from {
-    transform: translate3d(0, 0, 0);
+  0% {
+    transform: translate3d(0%, 0, 0);
   }
-  to {
-    transform: translate3d(-100%, 0, 0);
+
+  50% {
+    transform: translate3d(-105%, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(10%, 0, 0);
   }
 }
