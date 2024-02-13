@@ -32,7 +32,7 @@ export const BrunchLife = () => {
       </Container>
       <Spacing height={19} />
       <Container>
-        <Download url="https://youtu.be/IKXpbjEP-ew" />
+        <Download url="https://youtu.be/6U5cTcRK8yA" />
       </Container>
       <Spacing height={17} />
       <Container>

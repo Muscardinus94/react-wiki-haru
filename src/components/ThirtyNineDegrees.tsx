@@ -32,7 +32,7 @@ export const ThirtyNineDegrees = () => {
       </Container>
       <Spacing height={19} />
       <Container>
-        <Download url="https://youtu.be/xYbliQ2soMI" />
+        <Download url="https://youtu.be/ZgxrVdFcswA" />
       </Container>
       <Spacing height={17} />
       <Container>
