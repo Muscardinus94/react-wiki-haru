@@ -4,7 +4,6 @@ import { Container } from '../components/Container.tsx';
 import { HomeSubTitle } from '../components/HomeSubTitle.tsx';
 import { HomeSearch } from '../components/HomeSearch.tsx';
 import { TrackThumbnail } from '../components/TrackThumbnail.tsx';
-import { HomeAd } from '../components/HomeAd.tsx';
 import { Subscribe } from '../components/Subscribe.tsx';
 import { Reviews } from '../components/Reviews.tsx';
 import { Information } from '../components/Information.tsx';
@@ -27,8 +26,6 @@ const Home = () => {
       <HomeSearch />
       <Spacing height={30} />
       <TrackThumbnail />
-      <Spacing height={16.5} />
-      <HomeAd />
       <Spacing height={30} />
       <Subscribe />
       <Spacing height={29.96} />

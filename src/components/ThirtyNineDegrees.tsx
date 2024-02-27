@@ -2,7 +2,6 @@ import { Spacing } from './Spacing.tsx';
 import { Container } from './Container.tsx';
 import Typography from './Typography.tsx';
 import { Download } from './Download.tsx';
-import { HaruKidAd } from './HaruKidAd.tsx';
 import { TrackImage } from './TrackImage.tsx';
 import ThirtyNineDegreesCover from '../assets/39-degrees-cover.png';
 import { Divider } from './Divider.tsx';
@@ -14,6 +13,7 @@ import { Recommendation } from './Recommendation.tsx';
 import { Track } from './Track.tsx';
 import ThirtyNineDegreesAudio from '../assets/audio/39-degrees.wav';
 import { AudioPlayer } from './AudioPlayer.tsx';
+import { SelAd } from './SelAd.tsx';
 
 export const ThirtyNineDegrees = () => {
   return (
@@ -46,7 +46,7 @@ export const ThirtyNineDegrees = () => {
       </Container>
       <Spacing height={19} />
       <Container>
-        <HaruKidAd />
+        <SelAd />
       </Container>
       <Spacing height={29} />
       <Container>
